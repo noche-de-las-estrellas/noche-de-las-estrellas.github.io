@@ -1,0 +1,134 @@
+
+/* CSS files add styling rules to your content */
+/*#990A17, #EAA357, #D39C9B, #AE529F, #794982, #2B2F77*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 2em;
+
+}
+
+h1,h2,h3,h4,h5,h6{
+  font-family: "Poppins", sans-serif !important;
+
+}
+
+.header-title{
+  font-size: 5rem ;
+}
+
+
+.main-header.jumbotron{
+  color: #ffffff;
+  background-image: linear-gradient(to bottom, rgba(240, 215, 250, 0.52), rgba(43, 47, 119, 0.73)), url(background.jpg);
+  padding-top: 80px;
+  margin-bottom: 50px;
+  background-size: cover;
+  background-repeat: repeat-x;
+}
+
+#home-header{
+  padding-top: 250px;
+  padding-bottom: 250px;
+}
+
+#home-header-title{
+  font-size: 10rem !important;
+}
+
+.navbar{
+  background-color: #FFFFFF;
+  color: #EAA357;
+  padding-bottom:3px !important;
+}
+
+.bottom-border{
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  border-bottom: #9A9A9A solid 1px;
+}
+
+footer{
+  background-color: #794982;
+  color: #ffffff;
+  padding:30px;
+}
+
+.side-bordered{
+  border-left: #EAA357 solid 2px;
+  padding-left: 10px
+}
+
+.descriptions{
+  font-size: 2rem;
+}
+
+.faded{
+  color:#606060;
+}
+
+.home-page-links{
+  color:#2B2F77;
+}
+
+.home-page-links:hover{
+  color: #794982;
+}
+
+.home-page-div{
+  padding-top: 40px;
+  padding-bottom:50px;
+}
+
+
+
+
+
+#count-down-timer{
+  font-size: 5.5rem;
+  padding-left: 15px;
+  color: #EAA357;
+}
+
+.count-down-div{
+  padding-top:50px;
+  padding-bottom:50px;
+}
+
+.left-nav-links{
+  padding: 5px 5px 0px 20px;
+}
+
+.nav-links{
+  color: #2B2F77 !important;
+}
+
+.nav-links:hover{
+  color: #794982 !important;
+}
+
+.card-text{
+  font-size: 1.5rem;
+}
+
+.card-text1{
+  font-size: 1rem;
+}
+
+#countdown-title{
+  color: #2B2F77;
+}
+
+#countdown-sub{
+  color: #794982;
+}
+
+.dark-purple{
+  color: #2B2F77;
+}
+
+.light-purple{
+  color: #794982;
+}
