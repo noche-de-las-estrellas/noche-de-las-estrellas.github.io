@@ -142,3 +142,16 @@ footer{
 .light-purple{
   color: #794982;
 }
+
+.social-media{
+  padding-top:50px;
+  padding-bottom:50px;
+}
+
+.social-media-links{
+  color: #EAA357 !important;
+}
+
+.big-text{
+  font-size: 1.7rem;
+}
