@@ -1,14 +1,14 @@
-/* If you're feeling fancy you can add interactivity 
+/* If you're feeling fancy you can add interactivity
     to your site with Javascript */
 
 // prints "hi" in the browser's dev tools console
 console.log("You found the log! Congratulations! I hope you are enjoying this website I took the time to make!");
 
-$(window).resize(function () { 
+$(window).resize(function () {
     $('body').css('padding-top', parseInt($('.navbar').css("height")));
 });
 
-$(window).ready(function () { 
+$(window).ready(function () {
     $('body').css('padding-top', parseInt($('.navbar').css("height")));        
 });
 
@@ -22,7 +22,5 @@ var x = setInterval(function() {
   var hours = Math.floor(timeTillShow/3600000)%24;
   var days = Math.floor(timeTillShow/(3600000*24));
   $("#count-down-timer").text(days+"d "+hours+"h "+minutes+"m "+seconds+"s");
-  
+
 }, 1000);
-
-
